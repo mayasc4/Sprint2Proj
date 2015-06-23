@@ -1,0 +1,26 @@
+@import url("navigation-bar.css");
+@import url("index.css");
+
+body {
+    background-color: lightskyblue;
+    min-width: 770px;
+}
+
+.visually-hidden {
+    position: absolute;
+    visibility: hidden;
+}
+
+main {
+    margin-top: 200px;
+    margin-left: 50px;
+    margin-right: 35px;
+    height: 80vh;
+    background-color: rgba(255,255,255,0.5);
+}
+
+@media screen and (max-width: 1300px) {
+    main {
+        margin-top: 300px;
+    }
+}
