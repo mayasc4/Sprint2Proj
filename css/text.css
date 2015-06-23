@@ -1,4 +1,20 @@
-.index-page-main {
-    font-size: 25px;
+html {
+    font-family: 'Kreon', serif;
+    font-size: 100%;
+}
+
+main {
+    font-size: 2em;
+    text-align: center;
+}
+
+.main-headline {
+    color: lightseagreen;
+    font-size: 3em;
+    text-shadow: 0px 0px 4px black;
+    text-align: center;
+}
+
+footer {
     text-align: center;
 }

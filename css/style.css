@@ -1,19 +1,11 @@
 @import url("../bower_components/normalize.css/normalize.css");
 @import url("navigation-bar.css");
 @import url("index.css");
+@import url("text.css");
+@import url("layout.css");
+@import url("apps_websites.css");
+@import url("lolcations.css");
 
-html {
-    height: 100%;
-    background: linear-gradient(to bottom, white, white, lightseagreen);
-    background-repeat: no-repeat;
-    font-family: 'Kreon', serif;
-}
-
-main {
-    margin-top: 300px;
-    margin-left: 5%;
-    margin-right: 5%;
-}
 
 .visually-hidden {
     position: absolute;

@@ -1,0 +1,31 @@
+.apps-page div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+img {
+    width: 90%;
+}
+
+.apps-page figcaption {
+    font-size: 0.8em;
+}
+
+
+@media screen and (min-width: 750px) {
+    img {
+        width: 50%;
+    }
+    .middle {
+        width: 49%
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    img {
+        width: 50%;
+    }
+    .middle {
+        width: 32%
+    }
+}

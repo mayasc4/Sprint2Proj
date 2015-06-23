@@ -1,7 +1,7 @@
 /* General Positioning */
 
 header {
-    position: relative;
+    position: fixed;
     top: 0px;
     width: 100%;
     text-align: center;
@@ -9,16 +9,13 @@ header {
 
 .header-container {
     background-color: lightsalmon;
-    width: 100%;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
     padding-top: 10px;
     padding-bottom: 5px;
 }
 
-@media screen and (min-width: 715px) {
-    header {
-        position: fixed;
-    }
-}
 
 /* Navigator */
 
@@ -27,14 +24,14 @@ header {
 }
 
 .site-navigator ul {
-    padding-left: 0px;
+    margin-left: 0px;
 }
 
 
 .site-navigator li {
     list-style-type: none;
     width: 20%;
-    min-width: 250px;
+    min-width: 300px;
     background-color: antiquewhite;
     margin-bottom: 3px;
     margin-left: auto;
@@ -53,7 +50,6 @@ li.selected {
 @media screen and (min-width: 715px) {
     .site-navigator li {
         display: inline-block;
-        min-width: 300px;
     }
 }
 
