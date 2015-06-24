@@ -5,18 +5,24 @@ header {
     top: 0px;
     width: 100%;
     text-align: center;
+    margin-bottom: 5%;
+    background-color: #EDF0F3;
+    z-index: 1;
 }
 
 .header-container {
-    background-color: lightsalmon;
     width: 100%;
     padding-top: 10px;
     padding-bottom: 5px;
 }
 
-@media screen and (min-width: 715px) {
+@media screen and (min-width: 810px) {
     header {
         position: fixed;
+    }
+
+    .header-container {
+        height: 200px;
     }
 }
 
@@ -35,7 +41,8 @@ header {
     list-style-type: none;
     width: 20%;
     min-width: 250px;
-    background-color: antiquewhite;
+    background-color: #FFD2B3;
+    border: 1px solid #FFB07B;
     margin-bottom: 3px;
     margin-left: auto;
     margin-right: auto;
@@ -43,51 +50,65 @@ header {
 
 li.selected {
     background-color: lightgoldenrodyellow;
-    border: 1px solid yellow;
+    border: 1px solid #FFB07B;
+}
+
+.site-navigator ul a{
+    display: inline-block;
+    width: 100%;
+    color: black;
+    text-decoration: none;
 }
 
 .site-navigator li:hover {
     background-color: lightgoldenrodyellow;
 }
 
-@media screen and (min-width: 715px) {
+@media screen and (min-width: 810px) {
     .site-navigator li {
         display: inline-block;
         min-width: 300px;
+        font-size: 1.5em;
+    }
+
+}
+
+@media screen and (min-width: 900px) {
+    .line-seperator {
+        display: block;
     }
 }
 
-
-/* logo */
-
-.logo {
-    /*float:left;*/
-    /*margin-left:10px;*/
-    display: none;
-}
-.logo img {
-    /*width: 180%;*/
-    /*height: 180%;*/
+@media screen and (min-width: 1400px) {
+    .line-seperator {
+        display: none;
+    }
 }
 
 /* corner ribbon */
 
 .fixed-corner {
-    background-color: lightseagreen;
+    background-color: #064C7E;
     text-align: center;
     font-size: 20px;
-    height: 30px;
+    height: 35px;
     width: 400px;
     position: fixed;
     top: 50px;
     left: -75px;
     transform: rotateZ(-30deg);
     z-index: 2;
-    box-shadow: inset 0px 0px 10px 1px black;
+    box-shadow: inset 0px 0px 10px 1px yellow;
     display:none;
+    padding-top: 7px;
 }
 
-@media screen and (min-width: 715px) {
+.fixed-corner a {
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 810px) {
     .fixed-corner {
         display: block;
     }

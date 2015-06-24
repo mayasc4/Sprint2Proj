@@ -1,10 +1,28 @@
 
 .hot {
     display: inline-block;
-    transition: all 1s ease-out;
+    margin: 5%;
+    padding: 1%;
+    border: 3px solid transparent;
+    border-radius: 20%;
+    transition: all 0.5s ease-out;
+}
+
+.hot:last-child {
+    margin-top: 0;
 }
 
 .hot:hover {
     border: 3px solid crimson;
-    box-shadow: 0px 0px 30px 20px orangered;
+    box-shadow: 0px 0px 30px 20px orangered, 0px 0px 40px 30px yellow;
+    background-image: url("../pics/flames.jpg");
+    color: white;
+}
+
+.hot h3 {
+    font-size: 1.2em;
+}
+
+.hot p {
+    font-size: 0.7em;
 }

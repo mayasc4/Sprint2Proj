@@ -3,11 +3,17 @@ html {
 }
 
 body {
-    min-height: 100%;
-    background: linear-gradient(to bottom, white, lightseagreen);
+    background: linear-gradient(to bottom, white, #7691A4);
     background-repeat: no-repeat;
-    min-height: calc(100vh - 300px);
+    min-height: calc(100vh - 230px);
     position: relative;
+
+}
+
+@media screen and (max-width: 715px) {
+    body {
+        min-height: 100vh;
+    }
 }
 
 main {
@@ -15,9 +21,9 @@ main {
     margin-right: 1%;
 }
 
-@media screen and (min-width: 715px) {
+@media screen and (min-width: 810px) {
     main {
-        margin-top: 300px;
+        margin-top: 230px;
     }
 }
 

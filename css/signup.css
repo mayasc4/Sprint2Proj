@@ -1,0 +1,40 @@
+
+form {
+    /*font-family: ;*/
+}
+
+.field-descriptors {
+    float: left;
+    margin-left: 5%;
+}
+
+.field-descriptors label {
+    display: block;
+    text-align: left;
+    font-size: 0.8em;
+}
+
+.fields {
+    float:left;
+    width: 40%;
+}
+
+.fields input {
+    display: block;
+    text-align: left;
+    font-size: 0.7em;
+
+}
+
+.after-fields {
+    clear:both;
+}
+
+@media screen and (min-width: 715px) {
+    .field-descriptors {
+        margin-left: calc(50% - 300px);
+    }
+    .fields input {
+        width: 300px;
+    }
+}
