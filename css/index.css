@@ -12,3 +12,14 @@
         margin: 0 10%;
     }
 }
+
+.no-bottom-margin img {
+    width: 80%;
+}
+
+@media screen and (min-width: 715px) {
+    .no-bottom-margin img {
+        width: 70%;
+        max-width: 700px;
+    }
+}
