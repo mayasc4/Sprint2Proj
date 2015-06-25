@@ -8,8 +8,8 @@
     transition: all 0.5s ease-out;
 }
 
-.hot:last-child {
-    margin-top: 0;
+.hot {
+    margin-bottom: 0;
 }
 
 .hot:hover {

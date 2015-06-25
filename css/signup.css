@@ -1,8 +1,4 @@
 
-form {
-    /*font-family: ;*/
-}
-
 .field-descriptors {
     float: left;
     margin-left: 5%;
@@ -12,6 +8,7 @@ form {
     display: block;
     text-align: left;
     font-size: 0.8em;
+    margin-bottom: 7px;
 }
 
 .fields {
@@ -23,7 +20,7 @@ form {
     display: block;
     text-align: left;
     font-size: 0.7em;
-
+    margin-bottom: 5px;
 }
 
 .after-fields {
