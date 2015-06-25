@@ -19,6 +19,7 @@
     text-shadow: 0px 0px ;
     background-image: url("../pics/flames.jpg");
     color: white;
+    transform: rotateY(360deg);
 }
 
 .hot h3 {
