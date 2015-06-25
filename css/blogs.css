@@ -3,6 +3,12 @@
     margin: 5% 1%;
     border: 1px solid black;
     position: relative;
+    box-shadow: 1px 1px #EDF0F3,
+    2px 3px black,
+    3px 3px black,
+    4px 4px black,
+    5px 5px black,
+    6px 6px black;
 }
 
 @media screen and (min-width: 715px) {
