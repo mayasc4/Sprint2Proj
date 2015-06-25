@@ -5,13 +5,11 @@ header {
     top: 0px;
     width: 100%;
     text-align: center;
-    /*margin-bottom: 5%;*/
     background-color: #EDF0F3;
     z-index: 1;
 }
 
 .header-container {
-    /*width: 100%;*/
     padding-top: 10px;
     padding-bottom: 5px;
 }
@@ -49,7 +47,6 @@ header {
 
 li.selected {
     background-color: lightgoldenrodyellow;
-    /*border: 1px solid #FFB07B;*/
 }
 
 .site-navigator ul a{
@@ -88,14 +85,8 @@ li.selected {
     text-align: center;
     font-size: 20px;
     height: 35px;
-    width: 400px;
-    position: fixed;
-    top: 50px;
-    left: -75px;
-    transform: rotateZ(-30deg);
-    /*z-index: 2;*/
     box-shadow: inset 0px 0px 10px 1px yellow;
-    display:none;
+    /*display:block;*/
     padding-top: 7px;
 }
 
@@ -105,7 +96,11 @@ li.selected {
 
 @media screen and (min-width: 810px) {
     .fixed-corner {
-        display: block;
+        width: 400px;
+        position: fixed;
+        top: 50px;
+        left: -75px;
+        transform: rotateZ(-30deg);
     }
 }
 

@@ -35,3 +35,27 @@
         width: 300px;
     }
 }
+
+/**
+ * Orange
+ */
+a.button {
+    background: linear-gradient(#feda71, #febe4d);
+    border: solid 1px #eab551;
+    border-radius: 5px;
+    border-bottom: solid 3px #b98a37;
+    box-shadow: inset 0 0 0 1px #fee9aa;
+    color: darkslategray;
+    display: inline-block;
+    width: 200px;
+    margin-top: 10px;
+}
+
+a.button:hover {
+    background: linear-gradient(#fec455, #fecd61);
+    border: solid 1px #e6a93d;
+    border-bottom: solid 3px #b98a37;
+    box-shadow: inset 0 0 0 1px #fedb98;
+    color: black;
+}
+

@@ -1,0 +1,14 @@
+
+.no-bottom-margin {
+    margin-bottom: 0px;
+}
+
+.index-page-figcaption {
+    display: block;
+}
+
+@media screen and (min-width: 715px) {
+    .index-page-figcaption {
+        margin: 0 10%;
+    }
+}
