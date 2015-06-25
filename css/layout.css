@@ -5,7 +5,7 @@
 body {
     background: linear-gradient(to bottom, white, #7691A4);
     background-repeat: no-repeat;
-    min-height: calc(100vh - 230px);
+    min-height: calc(100vh - 250px);
     position: relative;
     padding-bottom: 20px;
 }
