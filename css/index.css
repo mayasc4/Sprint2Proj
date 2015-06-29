@@ -7,6 +7,7 @@
     display: block;
 }
 
+
 @media screen and (min-width: 715px) {
     .index-page-figcaption {
         margin: 0 10%;

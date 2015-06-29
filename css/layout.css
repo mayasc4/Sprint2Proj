@@ -9,7 +9,7 @@ body {
 
 @media screen and (min-width: 810px) {
     body {
-        min-height: calc(100vh - 250px);;
+        min-height: calc(100vh - 250px);
     }
 }
 

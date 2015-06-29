@@ -11,6 +11,10 @@
     6px 6px black;
 }
 
+.blog-post img {
+    width: 90%;
+}
+
 @media screen and (min-width: 715px) {
     .blog-post{
         overflow: hidden;
